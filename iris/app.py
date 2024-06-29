@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"Welcome to Docker basics"
+    return "Welcome to Docker basics"
 
 @app.route('/predict',methods=['POST','GET'])
 def prediction():
